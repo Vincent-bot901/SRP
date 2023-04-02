@@ -64,8 +64,6 @@ print(Evaluation(board))
 """
 #https://lichess.org/analysis/standard/rnbqkbnr/1p1p1pp1/2p4p/p3p1N1/2B1P3/8/PPPP1PPP/RNBQK2R_w_KQkq_-_0_5#8
 
-#Ved at kigge på linken kan de fleste skak spiller se at hvid klart har en fordel
-
 #Men denne evaluver funktion kan self ikke se taktikker dette kan vi se i dette eksempel: 
 """
 board = chess.Board ("r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4")
